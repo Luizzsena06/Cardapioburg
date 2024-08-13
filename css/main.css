@@ -181,6 +181,14 @@ a.navbar-brand{
     padding-bottom: 150px;
 }
 
+.background-servicos{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background-image: url(../img/bg-icons-2.png)
+}
+
 .card-icon{
     height: 150px;
     margin: 0 auto;
@@ -190,7 +198,7 @@ a.navbar-brand{
     align-items: center;
 }
 
-.card-text{
+.card-text {
     color: var(--color-text-out);
     font-size: 15px;
     padding: 0px 30px;
@@ -208,8 +216,28 @@ a.navbar-brand{
     margin-top: 5px;
     margin-bottom: 30px;
 }
+
+.cardapio{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
 .card-text p{
     font-size: 22px;
     color: var(--color-black);
     margin-bottom: 10px;
+}
+
+.card-item title-produto{
+    color: var(--color-black);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.card-item .price-produto{
+    color: var(--color-primary);
+    font-size: 24px;
 }
